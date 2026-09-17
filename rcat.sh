@@ -12,7 +12,7 @@ do
 		"$0" "$1/$i"
 	else
 		echo
-		printf '\e[33m%s\e[0m\n' "$pwd/$1/$i"
+		printf '\e[33m%s\e[0m\n' " ==> $pwd/$1/$i <=="
 		echo
 		cat $pwd/$1/$i
 		echo
